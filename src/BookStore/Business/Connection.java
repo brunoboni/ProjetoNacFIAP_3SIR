@@ -16,7 +16,7 @@ public class Connection {
     private static String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
     private static String usuario = "OPS$RM73974";
     private static String senha = "271088";
-
+    private static String urubu ;
     public static java.sql.Connection getConnection() {
 
         if (conexao == null) {
